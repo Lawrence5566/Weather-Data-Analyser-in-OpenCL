@@ -1,9 +1,9 @@
 ﻿  DataAnalyser.cpp
-c:\users\student\desktop\parallelassignment\dataanalyser\dataanalyser\dataanalyser.cpp(241): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
-c:\users\student\desktop\parallelassignment\dataanalyser\dataanalyser\dataanalyser.cpp(242): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+c:\users\lawre\documents\github\weather-data-analyser-in-opencl\dataanalyser\dataanalyser\dataanalyser.cpp(241): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+c:\users\lawre\documents\github\weather-data-analyser-in-opencl\dataanalyser\dataanalyser\dataanalyser.cpp(242): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
   Generating code
-  1 of 916 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+  7 of 916 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  DataAnalyser.vcxproj -> C:\Users\Student\Desktop\ParallelAssignment\DataAnalyser\x64\Release\DataAnalyser.exe
+  DataAnalyser.vcxproj -> C:\Users\lawre\Documents\GitHub\Weather-Data-Analyser-in-OpenCL\DataAnalyser\x64\Release\DataAnalyser.exe

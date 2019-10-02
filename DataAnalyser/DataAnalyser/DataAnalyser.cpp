@@ -55,7 +55,7 @@ size_t local_size = 32; //32 work group size (prefered kernel size)
 
 float mean = 0.f;
 
-void MinMaxAvg(vector<mytype> arr) {
+void MinMaxAvg(vector<mytype> &arr) {
 	std::vector<mytype> B(1); //B is used as single answer buffer
 	std::vector<mytype> C(1);
 	std::vector<mytype> D(1);
@@ -124,7 +124,7 @@ void MinMaxAvg(vector<mytype> arr) {
 	cl::flush();
 }
 
-void Std(vector<mytype> arr) {
+void Std(vector<mytype> &arr) {
 	size_t input_elements = arr.size();//number of input elements
 	size_t input_size = arr.size() * sizeof(mytype);//size in bytes
 
@@ -181,7 +181,7 @@ void Std(vector<mytype> arr) {
 	cl::flush();
 }
 
-bool Sorted(vector<mytype> arr)
+bool Sorted(vector<mytype> &arr)
 {
 	//sequentially check whether or not an array is sorted
 	for (int i = 0; i < arr.size() - 1; i++){
@@ -192,7 +192,7 @@ bool Sorted(vector<mytype> arr)
 	return true;
 }
 
-void Sort(vector<mytype> arr) { //sorting, median and quartiles
+void Sort(vector<mytype> &arr) { //sorting, median and quartiles
 	cout << " \nSorting" << endl;
 
 	size_t input_elements = arr.size();//number of input elements
